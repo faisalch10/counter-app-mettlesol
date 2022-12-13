@@ -1,5 +1,9 @@
 const Navigation = () => {
-  return <h1>Navigation</h1>;
+  return (
+    <div className='navigation'>
+      <h1>Redux-CounterApp</h1>
+    </div>
+  );
 };
 
 export default Navigation;

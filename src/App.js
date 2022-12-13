@@ -12,13 +12,15 @@ function App() {
   return (
     <div>
       <Navigation />
-      <h1>{counterState}</h1>
-      <button type='button' onClick={handleIncrement}>
-        Increment
-      </button>
-      <button type='button' onClick={handleDecrement}>
-        Decrement
-      </button>
+      <main>
+        <h1>{counterState}</h1>
+        <button type='button' onClick={handleIncrement}>
+          Increment
+        </button>
+        <button type='button' onClick={handleDecrement}>
+          Decrement
+        </button>
+      </main>
     </div>
   );
 }
